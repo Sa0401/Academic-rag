@@ -1,0 +1,6 @@
+gradio
+faiss-cpu
+PyMuPDF
+sentence-transformers
+python-dotenv
+requests
