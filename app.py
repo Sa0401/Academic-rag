@@ -72,7 +72,7 @@ Answer:"""
     }
 
     payload = {
-        "model": "mistralai/mistral-7b-instruct",  # you can change model here
+        "model": "qwen/qwen-2.5-7b-instruct",  # you can change model here  (mistralai/mistral-7b-instruct)
         "messages": [
             {"role": "system", "content": "You are a helpful academic assistant."},
             {"role": "user", "content": prompt}
