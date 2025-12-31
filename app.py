@@ -106,6 +106,6 @@ gr.Interface(
         gr.Textbox(label="💬 Ask a question")
     ],
     outputs=gr.Textbox(label="Answer", lines=15),
-    title="Academic RAG Assistant",
+    title=" Sara Academic RAG Assistant",
     description="Upload a research paper PDF and ask a question based only on its content. Powered by OpenRouter LLM + RAG."
 ).launch(share=True)
