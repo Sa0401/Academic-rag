@@ -1,6 +1,9 @@
-gradio
-faiss-cpu
-PyMuPDF
-sentence-transformers
-python-dotenv
-requests
+streamlit>=1.30.0
+pinecone>=5.0.0
+PyMuPDF>=1.23.0
+pymupdf4llm>=2.1.0
+rapidocr-onnxruntime>=1.2.0
+sentence-transformers>=2.2.0
+openai>=1.10.0
+python-dotenv>=1.0.0
+graphviz>=0.20.0

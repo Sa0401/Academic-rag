@@ -1,0 +1,32 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Streamlit Local Credentials
+.streamlit/credentials.toml
+
+# Gradio Cache
+.gradio/
+
+# Screenshots & Screen Recordings
+*.mp4
+*.mov
+*.gif
+screenshot*.png
+
+# OS / Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
